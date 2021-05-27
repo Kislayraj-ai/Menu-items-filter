@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Items</title>
+<!--style sheet-->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!--*Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+        crossorigin="anonymous">
+    
+    <!--newfont-->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+        crossorigin="anonymous" />
+
+</head>
+<body>
+
+<header id="header" class="py-3 text-center text-light bg-dark mb-4">
+           <div class="container">
+               <div class="row">
+                   <div class="col">
+                       <h2><i class="fas fa-book-open"></i>
+                           Our <span>Menu</span> </h2>
+                       <div class="underline mx-auto mt-2 bg-warning"></div>
+                   </div>
+               </div>
+           </div>
+</header>
+
+<!--*------------filter buttons----------->
+
+<section id="buttons" class="py-2 text-center mt-3 mb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="btn-container">
+                    <!-- <button class="btn btn-warning filter-btn">All</button> -->
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--search-->
+<div class="container">
+          <div class="row ">
+              <div class="col-md-4 ml-auto">
+                  <form class="search-form">
+                      <div class="form-group">
+                          <input type="text" placeholder="Search" class="form-control shadow ml-auto  input" />
+                      </div>
+                  </form>
+              </div>
+          </div>
+</div>
+
+
+
+<!--*---------items here-------------->
+<section id="menu-items" class="p-5">
+    <div class="container">
+        <div class="row justify-content-center menuContainer">
+            <!-- ***to create demo structure *** 
+                <div class="col-md-8 col-lg-4">
+                <div class="single-item border align-self-center">
+                  <img src="images/item-1.jpeg" alt="" class="img-fluid w-100" />
+                  <div class="px-2">
+                  <p class="lead name">Hellmond</p>
+                     <p>$59.00</p>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+    </div>
+</section>
+
+<!--*---Footer---->
+<footer id="footer" class="bg-dark text-white text-center">
+      <div class="container py-4">
+          <div class="row">
+              <div class="col">
+                  <h5>Copyright &copy; <span id="year">@000</span></h5>
+              </div>
+          </div>
+      </div>
+</footer>
+
+
+    <!--*-------javascript------>
+    <script type="module" src="app.js"></script>
+
+
+    <!--*script for bootstrap-->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+</body>
+</html>
